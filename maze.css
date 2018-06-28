@@ -6,23 +6,23 @@ body {
     position: relative;
 }
 
-/* #avatar {
+#avatar {
     position: absolute; 
     width: 33px; 
     height: 33px; 
     background: url('chok.png'); 
     background-size: contain; 
     transition: all 0.1s;
-} */
-#avatar {
+}
+/* #avatar {
     position: absolute; 
     width: 33px; 
     height: 33px; 
     background: url('Bulldozer3.png'); 
     background-size: contain; 
     transition: all 0.1s;
-}
-/* #youWonDiv {
+} */
+#youWonDiv {
     position: absolute; 
     left: 50px; 
     top: 220px; 
@@ -32,9 +32,9 @@ body {
     background: lightgrey; 
     text-align: center; 
     opacity: 0.9;
-} */
+}
 
-#youWonDiv {
+/* #youWonDiv {
     position: absolute; 
     left: 50px; 
     top: 220px; 
@@ -45,7 +45,7 @@ body {
     background: black; 
     text-align: center; 
     opacity: 1;
-}
+} */
 
 .hidden {
     display: none; 
@@ -56,39 +56,39 @@ body {
     height: 33px;
 }
 
-/* .cell {
-    width: 33px; 
-    line-height: 33px;
-    text-align: center;
-} */
 .cell {
     width: 33px; 
     line-height: 33px;
     text-align: center;
+}
+/* .cell {
+    width: 33px; 
+    line-height: 33px;
+    text-align: center;
     background: burlywood;
-}
-
-/* .W {
-    background: #00356b;
 } */
-.W {
-    background-image: url("chainlink.png");
-}
 
-/* .O {
+.W {
+    background: #00356b;
+}
+/* .W {
+    background-image: url("chainlink.png");
+} */
+
+.O {
     margin: 10px; 
     width: 13px; 
     border-radius: 6px; 
     background: lightpink;
-} */
-.O { 
+}
+/* .O { 
     width: 33px; 
     line-height: 33px;
     text-align: center;
     background: rgba(61, 46, 4, 0.897)
-}
+} */
 
-/* .crate {
+.crate {
     position: absolute; 
     width: 31px; 
     height: 31px; 
@@ -96,8 +96,8 @@ body {
     background: burlywood;
     opacity: 0.7; 
     transition: all 0.1s;
-} */
-.crate {
+}
+/* .crate {
     position: absolute; 
     width: 31px; 
     height: 31px; 
@@ -105,4 +105,4 @@ body {
     background-image: url("185094673.jpg");
     opacity: 0.7; 
     transition: all 0.1s;
-}
+} */
